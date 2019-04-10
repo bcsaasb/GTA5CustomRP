@@ -7,7 +7,7 @@ ALTER TABLE `users` ADD `job` int(11) DEFAULT '1';
 CREATE TABLE `jobs` (
   `job_id` int(11) NOT NULL,
   `job_name` varchar(40) NOT NULL,
-  `salary` int(11) NOT NULL DEFAULT '500'
+  `salary` int(11) NOT NULL DEFAULT '100'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ALTER TABLE `jobs`
