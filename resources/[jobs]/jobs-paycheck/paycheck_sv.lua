@@ -13,7 +13,7 @@ AddEventHandler('paycheck:salary', function()
         local salary_job = result[1].salary
         if tonumber(salary_job) > 0 then
             user:addMoney((salary_job))
-            TriggerClientEvent("es_freeroam:notify", source, "CHAR_BANK_MAZE", 1, "Chase Bank", false, "Salaire reçu : ~g~$~s~"..salary_job.."")
+            TriggerClientEvent("es_freeroam:notify", source, "CHAR_BANK_MAZE", 1, "Chase Bank", false, "Você recebeu de salario: ~g~R$~s~"..salary_job.."")
         end
     end)
 end)
