@@ -5,12 +5,12 @@ local changeYourJob = {
 }
 
 local jobs = {
-  {name="Chômeur", id=1},
-  {name="Bûcheron", id=17},
-  {name="Viticulteur", id=18},
-  {name="Mineur", id=19},
-  {name="Livreur", id=21},
-  {name="Chauffeur Taxi", id=22}
+  {name="Desempregado", id=1},
+  {name="Lenhador", id=17},
+  {name="Agricultor", id=18},
+  {name="Minerador", id=19},
+  {name="Entregador", id=21},
+  {name="Taxi", id=22}
 }
 
 ---------------------------------- FUNCTIONS ----------------------------------
